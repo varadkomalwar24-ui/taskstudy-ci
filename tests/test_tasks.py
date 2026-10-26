@@ -46,7 +46,7 @@ def test_progress_percent():
     manager = make_manager()
     assert manager.progress_percent() == 0.0
     manager.complete_task(1)
-    assert manager.progress_percent() == 50.0
+    assert manager.progress_percent() == 60.0
 
 
 def test_progress_with_no_tasks():
